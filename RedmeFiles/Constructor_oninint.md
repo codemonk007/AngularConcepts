@@ -31,12 +31,12 @@ MyAppView
 ```
 Usually logic of angular components are written in ngOninit .also putting these in constructor would cause object creation costly .
 
-**ngOnInit is a life cycle hook managed by Angular**
+* **ngOnInit is a life cycle hook managed by Angular**
 
-**ngOnInit being added to prototype of the class created**
+* **ngOnInit being added to prototype of the class created**
 
-**ngOnInit called by Angular when component is initialized**
+* **ngOnInit called by Angular when component is initialized**
 
-**Actual business logic performed ngOnInit method**
+* **Actual business logic performed ngOnInit method**
 
-**ng onint is called after firstchange ditection,new Observable push,new Store push**
+* **ng onint is called after firstchange ditection,new Observable push,new Store push**
