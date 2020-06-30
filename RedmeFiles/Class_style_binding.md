@@ -58,10 +58,11 @@ in html
 }
 ```
 
-Ng style laso used to pass styles in interpreting and runtime of container.
+Ng style also used to pass styles in interpreting and runtime of application.
 
 <button [ngStyle]="someValue ? (bgcolor:red);(bgcolor:blue)">
-//if class is null then we should have class2 value. else class2 1 cond
+
+//if class is null then we should have class2 value. else class2 1.
 
 
 
