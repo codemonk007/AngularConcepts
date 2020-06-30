@@ -1,5 +1,5 @@
 angular comes with few unique way to implment styling .
-
+## refer class-style component in demo app
 Single way binding 
 in html
 <button class="colorClass" [class] ="classToApply">Click Me</button>
