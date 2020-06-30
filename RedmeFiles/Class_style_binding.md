@@ -26,3 +26,42 @@ in .ts file
     return classes;
   }
 ```
+we can also use Ngclass to assign any class
+
+in html
+<button [Ngclass]="someclassreturn()">
+```javascript
+in .ts file 
+someclassreturn(){
+    return "someclass"
+}
+in html
+.someclass{
+    background yello;
+}
+```
+
+
+ng clas can be used with conditional opertaor as well .
+in html
+<button [Ngclass]="someValue ? class1:class2"> //if class is null then we should have class2 value. else class2 1 cond
+<button [Ngclass]="someValue ===0  class1:class2"> //if class is null then we should have class2 value. else class2 1 cond
+
+```javascript
+in .ts file 
+someclassreturn(){
+    return "someclass"
+}
+in html
+.someclass{
+    background yello;
+}
+```
+
+Ng style laso used to pass styles in interpreting and runtime of container.
+
+<button [ngStyle]="someValue ? (bgcolor:red);(bgcolor:blue)"> //if class is null then we should 
+have class2 value. else class2 1 cond
+
+
+
