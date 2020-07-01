@@ -9,6 +9,9 @@ import {FormsModule} from '@angular/forms';
 import { ClassStyleComponent } from './class-style/class-style.component';
 import { ContentProjectionComponent } from './content-projection/content-projection.component';
 import { ChildComponent } from './content-projection/child/child.component';
+import { CustomDirectiveComponent } from './custom-directive/custom-directive.component';
+import { DirectiveDirective } from './custom-directive/directive.directive';
+import { CustomStructuralDirectiveDirective } from './custom-directive/custom-structural-directive.directive';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,11 @@ import { ChildComponent } from './content-projection/child/child.component';
     SubchildchnagestrategyComponent,
     ClassStyleComponent,
     ContentProjectionComponent,
-    ChildComponent
+    ChildComponent,
+    CustomDirectiveComponent,
+    DirectiveDirective,
+    CustomStructuralDirectiveDirective,
+ 
   ],
   imports: [
     BrowserModule,FormsModule
